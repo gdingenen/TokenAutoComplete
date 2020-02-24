@@ -1,19 +1,16 @@
 package com.tokenautocompleteexample;
 
-import android.support.test.espresso.matcher.BoundedMatcher;
-import android.text.Editable;
-import android.view.View;
+import androidx.test.espresso.matcher.BoundedMatcher;
 
-import com.tokenautocomplete.TokenCompleteTextView;
+import android.view.View;
 
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import static android.support.test.espresso.core.deps.guava.base.Preconditions.checkNotNull;
+import static androidx.test.espresso.core.deps.guava.base.Preconditions.checkNotNull;
 
 /** Convenience matchers to make it easier to check token view contents
  * Created by mgod on 8/25/17.
